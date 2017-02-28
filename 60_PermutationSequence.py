@@ -3,7 +3,7 @@ class Solution(object):
     def getPermutation(self, n, k):
         lis = []
         nums = list(range(1, n+1))
-        if nums == []:
+        if nums is []:
             return []
         length = len(nums)
         temp = [[nums[length - 1]]]
