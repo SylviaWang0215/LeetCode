@@ -30,11 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="143_ReorderList.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="143_ReorderList.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/143_ReorderList.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
               <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="54_SpiralMatrix.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/54_SpiralMatrix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -63,13 +73,14 @@
         <option value="$PROJECT_DIR$/152_MaximumProductSubarray.py" />
         <option value="$PROJECT_DIR$/60_PermutationSequence.py" />
         <option value="$PROJECT_DIR$/143_ReorderList.py" />
+        <option value="$PROJECT_DIR$/54_SpiralMatrix.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="384" />
+    <option name="x" value="128" />
     <option name="y" value="23" />
-    <option name="width" value="1027" />
+    <option name="width" value="1150" />
     <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -125,7 +136,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/143_ReorderList.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/54_SpiralMatrix.py" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -138,7 +149,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.q143">
+  <component name="RunManager" selected="Python.q54">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -685,7 +696,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="22">
+    <configuration default="false" name="q54" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LeetCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/54_SpiralMatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="23">
       <item index="0" class="java.lang.String" itemvalue="Python.TwoSum" />
       <item index="1" class="java.lang.String" itemvalue="Python.HammingDistance" />
       <item index="2" class="java.lang.String" itemvalue="Python.fizzBuzz" />
@@ -708,6 +736,7 @@
       <item index="19" class="java.lang.String" itemvalue="Python.q456" />
       <item index="20" class="java.lang.String" itemvalue="Python.q152" />
       <item index="21" class="java.lang.String" itemvalue="Python.q143" />
+      <item index="22" class="java.lang.String" itemvalue="Python.q54" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -727,10 +756,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="384" y="23" width="1027" height="773" extended-state="0" />
+    <frame x="128" y="23" width="1150" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1869523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16695653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1121,6 +1150,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/54_SpiralMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
         </state>
       </provider>
